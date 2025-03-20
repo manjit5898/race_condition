@@ -1,7 +1,7 @@
 Step 1: Install Required Libraries
 pip3 install requests
 
-📌 Step 4: Run the Script from CLI
+📌 Step 2: Run the Script from CLI
 Now, run the script with:
 
 python3 race_condition.py -r login.txt -u urls.txt -c 128
@@ -12,9 +12,6 @@ Where:
 -c 128 → Specifies the number of concurrent requests
 📌 Step 5: Understanding Output
 ✅ If everything is normal:
-
-arduino
-
 [✅] Logged in successfully. Session maintained.
 [🚀] Running Race Condition Test...
 [🚀] Testing /api/transfer?amount=100 for Race Conditions...
@@ -25,8 +22,4 @@ arduino
 [🔥] Race Condition Detected at /api/transfer?amount=100 (1.23s)
 [🔥] Balance changed multiple times at /api/transfer?amount=100! (1.20s)
 [🔥] Race Condition Confirmed at /api/transfer?amount=100!
-
-
-
-
 
